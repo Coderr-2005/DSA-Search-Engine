@@ -46,5 +46,4 @@ const algorithms = [
     python: `# BFS Python`,
   },
 ];
-
-export default algorithms;
+module.exports = algorithms;

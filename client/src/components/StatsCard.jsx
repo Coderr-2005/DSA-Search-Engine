@@ -1,0 +1,10 @@
+function StatsCard({ title, value, color }) {
+  return (
+    <div className={`${color} rounded-xl p-6 text-white shadow-lg`}>
+      <h3 className="text-lg font-semibold">{title}</h3>
+      <p className="text-3xl font-bold mt-2">{value}</p>
+    </div>
+  );
+}
+
+export default StatsCard;
