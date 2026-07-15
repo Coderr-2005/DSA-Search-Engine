@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://algoatlas-backend-8cyw.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
